@@ -41,8 +41,8 @@ ul {
 }
 .text1{
     text-align:center;
-    font-family: Calibri;
-    font-size: 250%;
+    font-family: Courier New;
+    font-size: 200%;
 }
 .responsive {
     width: 100%;
@@ -84,7 +84,47 @@ ul {
 }
 #skills{
   text-align: center;
-  font-family: Calibri;
+  font-family: Courier New;
   font-size: 250%;
-  padding: 250px 0 50px 0; 
+  padding: 200px 0 50px 0; 
+}
+.link_section {
+  background-color: hsla(300, 84%, 20%, 0.808);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.link_section a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Courier New;
+}
+
+
+.link_section a:hover {
+  background-color: rgba(94, 8, 94, 0.808);
+  color: white;
+}
+
+
+
+.active{
+  background-color: hsla(300, 84%, 20%, 0.808);
+  color: white;
+}
+
+.link{
+  float: left;
+  font-size: 17px;
+  font-family: Courier New;
+  color: white;
+  padding: 14px 16px;
 }
