@@ -22,8 +22,9 @@ ul {
     background-color:hsla(300, 84%, 20%, 0.808);
   }
   *{
-      padding: 0px;
-      margin: 0px;
+      padding: 0;
+      margin: 0;
+      text-align:center;
   }
 .container{
     margin: 50% auto;
@@ -34,7 +35,7 @@ ul {
 
 #my_pic{
     float: left;
-    width: 40%;
+    width: 27%;
     height: auto;
     padding: 0 10px 0 0;
 }
@@ -44,8 +45,8 @@ ul {
     font-size: 250%;
 }
 .responsive {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     
   }
   #paragraph{
@@ -54,3 +55,36 @@ ul {
   #about{
     padding: 50px 0 50px 0;
   }
+
+  #logos{
+    background-color: white;
+    list-style-type: none;
+    
+  }
+  
+
+  .skills-container{
+    /* width: 200px; */
+    margin: 4% 2%;
+    /* height: 250px; */
+
+    display: inline-block;
+
+  }
+  .image{
+    width: 200px;
+    height: 200px;
+  }
+  .skills-container-container{
+    width: auto;
+    height: auto;
+    text-align:center;
+    padding: 20px;
+    
+}
+#skills{
+  text-align: center;
+  font-family: Calibri;
+  font-size: 250%;
+  padding: 250px 0 50px 0; 
+}
