@@ -18,10 +18,14 @@ ul {
     text-decoration: none;
     font-family: Courier New;
   }
-  
-  
   li a:hover {
     background-color:hsla(300, 84%, 20%, 0.808);
   }
-
-  
+  *{
+      padding: 0px;
+      margin: 0px;
+  }
+  .Cont{
+      width: 100%;
+      margin: auto;
+  }
