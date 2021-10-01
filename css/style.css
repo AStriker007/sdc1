@@ -25,7 +25,25 @@ ul {
       padding: 0px;
       margin: 0px;
   }
-  .Cont{
-      width: 100%;
-      margin: auto;
+.container{
+    margin: 50% auto;
+    width: 50%;
+    padding: 8px;
+}
+
+
+#my_pic{
+    float: left;
+    width: 40%;
+    height: auto;
+    padding: 0 10px 0 0;
+}
+.text{
+    text-align:center;
+    font-family: Calibri;
+    font-size: 250%;
+}
+.responsive {
+    width: 100%;
+    height: auto;
   }
