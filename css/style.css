@@ -50,7 +50,7 @@ ul {
     
   }
   #paragraph{
-    font-size:90%;
+    font-size:80%;
   }
   #about{
     padding: 50px 0 50px 0;
@@ -74,6 +74,7 @@ ul {
   .image{
     width: 200px;
     height: 200px;
+    
   }
   .skills-container-container{
     width: auto;
@@ -127,4 +128,29 @@ ul {
   font-family: Courier New;
   color: white;
   padding: 14px 16px;
+}
+.transtext {
+  position: absolute;
+  bottom: 500px;
+  right: 600px;
+  background-color: black;
+  color: white;
+  padding-left: 200px;
+  padding-right: 20px;
+  font-family: Courier New;
+  font-size: 180%;
+}
+.transphoto{
+  position: relative;
+}
+.transtext2 {
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+  background-color: black;
+  color: white;
+  padding-left: 200px;
+  padding-right: 20px;
+  font-family: Courier New;
+  font-size: 180%;
 }
